@@ -2,12 +2,12 @@
   "name": "mylibtest1",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "dist-test/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm-run-all -s build:*",
     "build:cjs": "tsc --project . --module commonjs --outDir ./dist-cjs",
-    "build:esm": "tsc --project . --module es2015 --outDir ./dist-esm"
+    "build:esm": "tsc --project . --module es2015 --outDir ./dist-test"
   },
   "keywords": [],
   "author": "",
