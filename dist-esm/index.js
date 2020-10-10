@@ -1,4 +1,4 @@
 export function hello() {
-    return 'hellos';
+    return 'hello';
 }
 //# sourceMappingURL=index.js.map
